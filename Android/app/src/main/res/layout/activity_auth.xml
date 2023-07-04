@@ -44,6 +44,7 @@
             android:layout_marginTop="@dimen/_40sdp"
             android:layout_marginHorizontal="@dimen/_20sdp"
             app:cornerRadius="@dimen/_10sdp"
+            android:backgroundTint="@color/colorhighlight"
             android:text="Sign In"/>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -80,7 +81,7 @@
         android:layout_marginHorizontal="@dimen/_20sdp"
         app:cornerRadius="@dimen/_10sdp"
         style="@style/Widget.Material3.Button.OutlinedButton"
-        android:text="Sign Up"
+        android:text="Sign Up"/>
 
     </LinearLayout>
 
