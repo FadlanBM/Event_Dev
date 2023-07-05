@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.android.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,12 +25,21 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView btnBack;
 
   @NonNull
+  public final MaterialButton btnToAccount;
+
+  @NonNull
+  public final MaterialButton btnToCode;
+
+  @NonNull
   public final TextView txtOr;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBack,
+      @NonNull MaterialButton btnToAccount, @NonNull MaterialButton btnToCode,
       @NonNull TextView txtOr) {
     this.rootView = rootView;
     this.btnBack = btnBack;
+    this.btnToAccount = btnToAccount;
+    this.btnToCode = btnToCode;
     this.txtOr = txtOr;
   }
 
@@ -66,13 +76,26 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_to_account;
+      MaterialButton btnToAccount = ViewBindings.findChildViewById(rootView, id);
+      if (btnToAccount == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_to_code;
+      MaterialButton btnToCode = ViewBindings.findChildViewById(rootView, id);
+      if (btnToCode == null) {
+        break missingId;
+      }
+
       id = R.id.txt_or;
       TextView txtOr = ViewBindings.findChildViewById(rootView, id);
       if (txtOr == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, btnBack, txtOr);
+      return new ActivityMainBinding((RelativeLayout) rootView, btnBack, btnToAccount, btnToCode,
+          txtOr);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

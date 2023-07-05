@@ -34,7 +34,8 @@
             android:layout_marginHorizontal="@dimen/_20sdp"
             android:backgroundTint="@color/colorhighlight"
             android:fontFamily="@font/poppinsbold"
-            app:cornerRadius="@dimen/_10sdp"/>
+            app:cornerRadius="@dimen/_10sdp"
+            android:id="@+id/btn_to_code"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -73,7 +74,8 @@
             style="@style/Widget.Material3.Button.OutlinedButton"
             android:text="Create Event"
             android:textColor="@color/colorhighlight"
-            android:fontFamily="@font/poppinsbold"/>
+            android:fontFamily="@font/poppinsbold"
+            android:id="@+id/btn_to_account"/>
     </LinearLayout>
 
 </RelativeLayout>

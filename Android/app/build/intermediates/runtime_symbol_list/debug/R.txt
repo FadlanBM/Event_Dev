@@ -1289,6 +1289,9 @@ int color cardview_light_background 0x7f05002b
 int color cardview_shadow_end_color 0x7f05002c
 int color cardview_shadow_start_color 0x7f05002d
 int color checkbox_themeable_attribute_color 0x7f05002e
+int color colorbacground_700 0x7f05024e
+int color colorbacground_900 0x7f05024f
+int color colorhighlight 0x7f050250
 int color design_bottom_navigation_shadow_color 0x7f05002f
 int color design_box_stroke_color 0x7f050030
 int color design_dark_default_color_background 0x7f050031
@@ -1335,6 +1338,16 @@ int color error_color_material_dark 0x7f050059
 int color error_color_material_light 0x7f05005a
 int color foreground_material_dark 0x7f05005b
 int color foreground_material_light 0x7f05005c
+int color gray_500 0x7f050251
+int color gray_600 0x7f050252
+int color gray_700 0x7f050253
+int color gray_800 0x7f050254
+int color green_300 0x7f050255
+int color green_400 0x7f050256
+int color green_500 0x7f050257
+int color green_600 0x7f050258
+int color green_700 0x7f050259
+int color green_800 0x7f05025a
 int color highlighted_text_material_dark 0x7f05005d
 int color highlighted_text_material_light 0x7f05005e
 int color m3_appbar_overlay_color 0x7f05005f
@@ -1813,6 +1826,9 @@ int color primary_text_default_material_dark 0x7f050237
 int color primary_text_default_material_light 0x7f050238
 int color primary_text_disabled_material_dark 0x7f050239
 int color primary_text_disabled_material_light 0x7f05023a
+int color purple_200 0x7f05025b
+int color purple_500 0x7f05025c
+int color purple_700 0x7f05025d
 int color radiobutton_themeable_attribute_color 0x7f05023b
 int color ripple_material_dark 0x7f05023c
 int color ripple_material_light 0x7f05023d
@@ -1826,6 +1842,8 @@ int color switch_thumb_material_dark 0x7f050244
 int color switch_thumb_material_light 0x7f050245
 int color switch_thumb_normal_material_dark 0x7f050246
 int color switch_thumb_normal_material_light 0x7f050247
+int color teal_200 0x7f05025e
+int color teal_700 0x7f05025f
 int color test_color 0x7f050248
 int color test_mtrl_calendar_day 0x7f050249
 int color test_mtrl_calendar_day_selected 0x7f05024a
@@ -3458,6 +3476,10 @@ int id bounceEnd 0x7f090064
 int id bounceStart 0x7f090065
 int id btn_back 0x7f090066
 int id btn_back_auth 0x7f090067
+int id btn_back_code 0x7f0901fe
+int id btn_back_register 0x7f0901ff
+int id btn_to_account 0x7f090200
+int id btn_to_code 0x7f090201
 int id buttonPanel 0x7f090068
 int id cache_measures 0x7f090069
 int id callMeasure 0x7f09006a
@@ -3841,6 +3863,7 @@ int id transition_scene_layoutid_cache 0x7f0901e3
 int id transition_transform 0x7f0901e4
 int id triangle 0x7f0901e5
 int id txt_or 0x7f0901e6
+int id txt_register 0x7f090202
 int id unchecked 0x7f0901e7
 int id uniform 0x7f0901e8
 int id unlabeled 0x7f0901e9
@@ -3951,8 +3974,11 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_auth 0x7f0c001c
+int layout activity_code_event 0x7f0c0080
 int layout activity_dashboard 0x7f0c001d
+int layout activity_login 0x7f0c0081
 int layout activity_main 0x7f0c001e
+int layout activity_register 0x7f0c0082
 int layout app_bar_dashboard 0x7f0c001f
 int layout content_dashboard 0x7f0c0020
 int layout custom_dialog 0x7f0c0021

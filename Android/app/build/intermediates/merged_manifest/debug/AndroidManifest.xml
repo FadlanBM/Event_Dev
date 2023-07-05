@@ -28,6 +28,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Android" >
         <activity
+            android:name="com.example.android.Code_Event_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.android.ui.auth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.android.ui.auth.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.android.AuthActivity"
             android:exported="false" />
         <activity

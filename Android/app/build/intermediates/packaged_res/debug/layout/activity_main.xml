@@ -32,8 +32,10 @@
             android:text="Join Event"
             android:layout_marginTop="@dimen/_50sdp"
             android:layout_marginHorizontal="@dimen/_20sdp"
+            android:backgroundTint="@color/colorhighlight"
             android:fontFamily="@font/poppinsbold"
-            app:cornerRadius="@dimen/_10sdp"/>
+            app:cornerRadius="@dimen/_10sdp"
+            android:id="@+id/btn_to_code"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -71,10 +73,9 @@
             app:cornerRadius="@dimen/_10sdp"
             style="@style/Widget.Material3.Button.OutlinedButton"
             android:text="Create Event"
-            android:fontFamily="@font/poppinsbold"/>
-
-
-
+            android:textColor="@color/colorhighlight"
+            android:fontFamily="@font/poppinsbold"
+            android:id="@+id/btn_to_account"/>
     </LinearLayout>
 
 </RelativeLayout>
